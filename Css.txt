@@ -1,0 +1,617 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.container {
+  display: flex;
+  height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+  /* background: #00204a;  */
+  /* background-color: #1a1a1a; */
+  /* background-color: black; */
+  color: white;
+}
+
+.vertical-bar {
+  width: 100px;
+  background: rgb(2, 1, 22);
+  /* background: #005792;  */
+  /* background-color: #333; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px ;
+}
+
+#logo {
+  margin-top: 20px; 
+}
+
+.logo-img {
+  width: 50px; 
+  height: 50px; 
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  
+}
+
+ .name {
+  color: white;
+  font-size: 50px;
+  transform: rotate(270deg);
+  transform-origin: (0 0);
+  margin-top: 70%;
+  margin-left: -12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform:capitalize;
+  font-weight: 100;
+
+
+}
+
+/* first aside */
+input[type="text"] {
+  height: 50px;
+  width: 350px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,9,121,1) 100%);
+  /* background-color: #05033F; */
+  /* background-color: #333; */
+  border-radius: 15px;
+  color: white;
+  outline: none;
+  border: none;
+  padding-left: 55px; 
+  font-size: 25px;
+  position: relative;
+  top: 35px;
+  left: 35px;
+}
+
+#search {
+  position: relative;
+  top: 35px;
+  left: -80%;
+}
+
+.profilee{
+  background-color: #01CBF9;
+  /* background-color: #333; */
+position: absolute;
+top: 40px;
+left: 85%;
+display: inline-block;
+height: 50px;
+width: 12%;
+border-radius: 15px;
+
+
+  
+}
+a{
+  text-decoration: none;
+}
+#profile {
+  height: 30px; 
+  position: relative;
+  top: 18%;
+  left: 15px;
+  border-radius: 50%; 
+  margin-right: 10px; 
+  
+ 
+}
+
+h3 {
+  margin: 0; 
+  display: inline;
+  justify-content: center;
+  text-align: center;
+  color: white;
+ 
+  padding-left: 15px;
+}
+
+
+#profile:hover {
+  opacity: 0.8;
+}
+
+/* first aside */
+
+/* second aside */
+.second  {
+  
+  /* background-color: lightgray; */
+  height: 40%;
+  width: 220%;
+  position: relative;
+  top: 75px;
+  left: 35px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+.loc {
+  /* background-color: white; */
+  color: black;
+  width: 40%;
+  height: 10%;
+  justify-content: center;
+  position: relative;
+  top: -120px;
+  left: 25px;
+  display: flex;
+  border-radius: 15px;
+ color: white;
+ /* border: 2px solid white; */
+  
+
+}
+
+#location {
+  font-size: 25px;
+  justify-content: center;
+ margin-top: 10px;
+ margin-left: -25px;
+ color: white;
+}
+.display_city{
+  font-size: 25px;
+  justify-content: center;
+ margin-top: 10px;
+ margin-left: 2px;
+ text-transform: uppercase;
+}
+.display_country{
+  font-size: 25px;
+  justify-content: center;
+ margin-top: 10px;
+ margin-left: 5px;
+ text-transform: uppercase;
+}
+
+#time {
+  /* background-color: white; */
+  color: black;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  border-radius: 15px;
+  position: relative;
+  left: 58%;
+  top: -42%;
+  color: white;
+}
+.display_temp{
+  font-size: 95px;
+  position: relative;
+  left: 35px;
+  top: -35px;
+  /* color: black; */
+}
+
+#weather_img{
+  position: relative;
+  left: 65%;
+  height: 35%;
+ top: 35%;
+}
+
+.feels_like{
+  font-size: 15px;
+  position: relative;
+  left: 35px;
+  top: -18%;
+  /* color: black; */
+  display: flex;
+}
+
+.max {
+  font-size: 20px;
+ 
+  position: relative;
+  left: 60%;
+  top: -3%;
+  /* color: black; */
+  display: flex;
+}
+.max_temp{
+  position: relative;
+  top: 5px;
+}
+.min {
+  font-size: 20px;
+  position: relative;
+  left: 80%;
+  top: -10.5%;
+  /* color: black; */
+  display: flex;
+}
+.min_temp{
+  position: relative;
+  top: 5px;
+}
+/* second aside */
+
+/* third aside */
+.third  {
+  /* background-color: lightgray; */
+  height: 40%;
+  width: 220%;
+  position: relative;
+  top: 105px;
+  left: 35px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+.display_wind{
+  /* background-color: white; */
+  width: 20%;
+  height: 50%;
+  border-radius: 15px;
+  position: relative;
+  top: -58%;
+  left: 25px;
+  color: white;
+  border: 2px solid white;
+ 
+}
+.wd{
+  /* color: black; */
+  text-align: center;
+  margin-top: 25px;
+}
+
+.display_humidity{
+  /* background-color:white; */
+  width: 20%;
+  height: 50%;
+  border-radius: 15px;
+  position: relative;
+  top: -25px;
+  left: 35%;
+  border: 2px solid white;
+}
+.hd{
+  /* color: black; */
+  text-align: center;
+  margin-top: 25px;
+}
+.display_descp{
+  /* background-color: white; */
+  width: 50%;
+  height: 20%;
+  border-radius: 15px;
+  position: relative;
+  top: 70%;
+  left: 3%;
+  /* color: black; */
+  font-size: 25px;
+  padding-left: 15px;
+  padding-top: 20px;  
+  border: 2px solid white;
+}
+.th{
+  /* color: black; */
+  position: relative;
+  top: 15px;
+  left: 25px;
+}
+.sun{
+  /* background-color:white ; */
+  width: 25%;
+  height: 75%;
+  /* color: black; */
+  text-align: center;
+  position: relative;
+  top: -106%;
+  left: 65%;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.sunrise{
+  font-size: 25px;
+}
+.sunset{
+  font-size: 25px;
+}
+/* third aside */
+
+/* fifth aside */
+.fifth{
+  /* background-color: lightgray; */
+  position: relative;
+  top: -72.2%;
+  left: 93vh;
+  width: 250%;
+  height: 83%;
+  border-radius: 15px;
+  border: 2px solid white;
+  /* color: black; */
+}
+.day{
+/* background-color: white; */
+text-align: center;
+width: 40%;
+height: 5%;
+position: relative;
+left: 32%;
+border-radius: 15px;
+justify-content: center;
+padding-top: 5px;
+top: 2%;
+}
+
+
+
+.forecast-day {
+ display: flex;
+  padding: 10px;
+  text-align: center;
+}
+
+.forecast-day h3 {
+  font-size: 30px;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 50px;
+  margin-bottom: 5px;
+  /* color: black; */
+}
+
+.forecast-day p {
+  margin: 5px 0;
+  padding-top: 58px;
+  position: relative;
+  left: 60%;
+  font-size: 30px;
+}
+
+.forecast-day img {
+   width: 65px;
+  height: 65px; 
+  position: relative;
+  left: 15%;
+  top: 35px;
+  
+}
+
+
+/* fifth aside */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container,
+.vertical-bar,
+.second,
+.third,
+.fifth {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.forecast-day {
+  animation: fadeIn 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.forecast-day:hover {
+  transform: scale(1.05);
+}
+
+/* Weather.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  /* background: url("path-to-your-background-image.jpg") no-repeat center center fixed; */
+  background-size: cover;
+  color: white;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Add your existing styles here... */
+
+/* Additional styles for animations */
+#logo,
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Example: Add more animations as needed */
+
+
+ <section className="container">
+      <div class="vertical-bar">
+        <div id="logo">
+          <img src={logo} alt="weatherify" class="logo-img" />
+          <h1 className="name">weatherify</h1>
+        </div>
+      </div>
+
+      <article>
+        {/* <div className="display_weather"> */}
+        <aside className="first aside">
+          <div id="search-container">
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="Enter your city"
+              value={city}
+              onChange={(e) => setCity(e.target.value)}
+            />
+            <FaSearchLocation id="search" />
+          </div>
+
+          <div className="profilee">
+            <a href="https://github.com/Sushmit123">
+              <img
+                id="profile"
+                src={profile}
+                alt="https://github.com/Sushmit123"
+                srcset=""
+              />
+              <h3>Sushmit Pathare</h3>
+            </a>
+          </div>
+        </aside>
+
+        <aside className="second aside">
+          <img src={img} alt="weather_img" id="weather_img" />
+
+          <div className="loc">
+            <IoLocationSharp id="location" />
+
+            <h2 className="display_city">Mumbai , </h2>
+            <h2 className="display_country">IN</h2>
+          </div>
+
+          <h2 id="time">{moment().format("LLL")}</h2>
+
+          <h1 className="display_temp">24°c</h1>
+
+          <section className="max">
+            <FaTemperatureArrowUp
+              style={{ fontSize: "1.5em", paddingRight: "10px" }}
+            />
+            <h4 className="max_temp">Max : 34°c</h4>
+          </section>
+
+          <section className="min">
+            <FaTemperatureArrowDown
+              style={{ fontSize: "1.51em", paddingRight: "10px" }}
+            />
+            <h4 className="min_temp"> Min : 14°c</h4>
+          </section>
+
+          <selection className="feels_like">
+            <FaTemperatureLow
+              style={{ fontSize: "2em", paddingRight: "10px" }}
+            />
+            <h2 className="fl"> Feels like : 35 °c</h2>
+          </selection>
+        </aside>
+
+        <aside className="third aside">
+          {/* <selection className="feels_like">
+            <FaTemperatureLow style={{ fontSize: "2em" }} />
+            <h2 className="fl"> Feels Like : 35 °c</h2>
+          </selection> */}
+
+          <h2 className="th">Today's Highlight</h2>
+          <h5 className="display_descp">Description : Clear</h5>
+
+          <section className="display_humidity">
+            <WiHumidity
+              style={{
+                fontSize: "2em",
+                color: "white",
+                marginLeft: "55px",
+                marginTop: "25px",
+              }}
+            />
+            <h2 className="hd">Humidity : 17%</h2>
+          </section>
+
+          <section className="display_wind">
+            <FaWind
+              style={{
+                fontSize: "2em",
+                color: "white",
+                marginLeft: "55px",
+                marginTop: "25px",
+              }}
+            />
+            <h2 className="wd">Windi : 2.3km/hr</h2>
+          </section>
+
+          <div className="sun">
+            <section className="sunrise">
+              <WiSunrise
+                style={{
+                  fontSize: "2em",
+                  color: "white",
+                  // marginLeft: "55px",
+                  marginTop: "30px",
+                }}
+              />
+              <h4 className="sun_rise"> Sun rise : 6:15 AM</h4>
+            </section>
+
+            <section className="sunset">
+              <TbSunset2
+                style={{
+                  fontSize: "2em",
+                  color: "white",
+                  // marginLeft: "55px",
+                  marginTop: "30px",
+                }}
+              />
+              <h4 className="sun_set"> Sun set : 6:15 PM</h4>
+            </section>
+          </div>
+        </aside>
+
+        <aside className="fourth aside">
+          {/* <section className="max">
+              <FaTemperatureArrowUp style={{ fontSize: "1em" }} />
+              <h4 className="max_temp">Max : 34°c</h4>
+              <h1>|</h1>
+            </section>
+
+            <section className="min">
+              <FaTemperatureArrowDown style={{ fontSize: "1em" }} />
+              <h4 className="min_temp"> Min : 14°c</h4>
+              <h1>|</h1>
+            </section> */}
+          {/* 
+          <section className="sunrise">
+            <WiSunrise style={{ fontSize: "1em" }} />
+            <h4 className="sun_rise"> Sun rise : 6:15 AM</h4>
+            <h1>|</h1>
+          </section>
+
+          <section className="sunset">
+            <TbSunset2 style={{ fontSize: "1em" }} />
+            <h4 className="sun_set"> Sun set : 6:15 PM</h4>
+          </section> */}
+        </aside>
+
+        {/* {/* Forecast weather  */}
+        <aside className="fifth aside">
+          <h2 className="day">Weather Pediction 6-Day Forecast</h2>
+          <div className="forecast"></div>
+        </aside>
+        {/* </div> */}
+      </article>
+    </section>

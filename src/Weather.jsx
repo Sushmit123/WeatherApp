@@ -20,7 +20,7 @@ const Weather = () => {
     demo(city);
   }, [demo, city]);
 
-  let APIKey = "ad1e7188d667d6ebeb6d2535c93680d6";
+  // let APIKey = "ad1e7188d667d6ebeb6d2535c93680d6";
 
   // Function to convert Unix timestamp to formatted time
   function convertUnixTimestamp(timestamp) {
